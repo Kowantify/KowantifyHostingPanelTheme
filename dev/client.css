@@ -127,6 +127,16 @@ p.svg-inline--fa.fa-hdd.fa-w-18.ServerRow__Icon-sc-1ibsw91-0.dIawHF {
     color: #ffffff;
 }
 
+/* dashboard server IP/Port text color */
+p.ServerRow___StyledP3-sc-1ibsw91-9.IQTcj {
+    color: #ffffff;
+}
+
+/* dashboard server IP/Port icon color */
+svg.svg-inline--fa.fa-ethernet.fa-w-16.ServerRow___StyledFontAwesomeIcon-sc-1ibsw91-8.QNQDy {
+    color: #ffffff;
+}
+
 /* dashboard server cpu icon color */
 svg.svg-inline--fa.fa-microchip.fa-w-16.ServerRow__Icon-sc-1ibsw91-0.dIawHF {
     color: #ffffff;
@@ -160,6 +170,11 @@ p.ServerRow___StyledP5-sc-1ibsw91-20.iOYhVG {
 /* dashboard server of % storage text color */
 p.ServerRow___StyledP6-sc-1ibsw91-23.fujSji {
     color: #ffffff;
+}
+
+/* server panel navigation bar 2nd */
+div.SubNavigation-sc-lfuaoi-0.jZPsWO.fade-appear-done.fade-enter-done {
+    background-color: var(--two);
 }
 
 /* server panel network textbox */
