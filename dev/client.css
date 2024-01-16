@@ -7,20 +7,22 @@
     --bg: #312121;
     --text: #FFFFFF;
 }
+/*some colors need modified by hand (I'm new at this okay)*/
 
-/* background 1 */
-html, body.bg-neutral-800 {
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-color: var--(bg);
+/* background 1 (when page is initally loaded) */
+body.bg-neutral-800 {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: var--(bg);
 }
 
 /* background 2 (when page is refreshed) */
 body.bg-neutral-900 {
-    background-color: var--(bg);
+  background-color: #312121;
 }
+
 
 /* login page */
 div.LoginFormContainer___StyledDiv-sc-cyh04c-3.cxOtYP {
