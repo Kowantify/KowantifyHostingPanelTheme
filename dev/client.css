@@ -5,6 +5,7 @@
   --two: #504040;
   --three: #312121;
   --bg: #312121;
+  --text: #FFFFFF;
 }
 
 html, body.bg-neutral-800 {
@@ -13,7 +14,7 @@ html, body.bg-neutral-800 {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: #312121;
+  background-color: var--(bg);
 }
 
 /* login page */
@@ -26,9 +27,96 @@ label.Label-sc-g780ms-0.dqkKHi {
   color: var(--three) !important;
 }
 
-input.Input-sc-19rce1w-0.fFYzlR {
-  color: white !important;
+/* login page background */
+.bg-neutral-900 {
+  background-color: var(--bg);
 }
+
+/* login page form text */ 
+input.Input-sc-19rce1w-0.khMOnl { 
+  color: #ffffff !imporant;
+}
+
+/* login page form text 2 */
+input.Input-sc-19rce1w-0.clSpXw {
+  color: #ffffff !important;
+}
+
+/* login page login form subject text */
+label.Label-sc-g780ms-0.jCqkLd {
+  color: #ffffff;
+}
+
+/* login page forget password text color */
+a.LoginContainer___StyledLink-sc-qtrnpk-4.cjgCjC {
+  color: #ffffff;
+}
+
+/* login page checkpoint text color */
+div.LoginCheckpointContainer___StyledDiv3-sc-1a62wwr-3 gfkgpf {
+  color: #ffffff;
+}
+
+/* login page checkpoint text color 2 */
+div.LoginCheckpointContainer___StyledDiv3-sc-1a62wwr-3 gfkgpf {
+  color: #ffffff;
+}
+
+/* login page footer text color years*/
+p.LoginFormContainer___StyledP-sc-cyh04c-7.eERxSY {
+  color: #ffffff !important;
+}
+
+/* login page footer text color llc*/
+span.LoginCheckpointContainer___StyledSpan-sc-1a62wwr-4.fuGsmc {
+  color: #ffffff;
+}
+
+/* return to login text color*/
+a.LoginCheckpointContainer___StyledLink-sc-1a62wwr-6.ecvrQe {
+  color: #ffffff;
+}
+
+/* flex logo ontop of login forms*/
+div.LoginFormContainer___StyledDiv-sc-cyh04c-3.cxOtYP {
+  display: flex;
+  padding-right: 25px;
+  padding-left: 25px;
+  flex-direction: column;
+}
+
+/* login page  custom logo */
+img.LoginFormContainer___StyledImg-sc-cyh04c-5.iKtZRB {
+  content: url('https://kowantify.com/wp-content/uploads/2024/01/Kowalski_logo__1_noname-300x225.png');  
+  width: auto; 
+  height: auto;
+}
+
+/* account context box color */
+div.ContentBox___StyledDiv-sc-mjlt6f-2.leFKUc {
+  background-color: var(--one);
+}
+
+/* account context box color 2 */
+textarea.Input__Textarea-sc-19rce1w-1.CreateApiKeyForm__CustomTextarea-sc-lcvdq4-0.hOrWbN {
+  background-color: var(--two);
+}
+
+/* account context box color 3 */
+textarea.Input__Textarea-sc-19rce1w-1.CreateSSHKeyForm__CustomTextarea-sc-plts88-0.hOrWbN {
+  background-color: var(--two);
+}
+
+/* server panel network textbox */
+textarea.Input__Textarea-sc-19rce1w-1.hOrWbN.bg-neutral-800.hover:border-neutral-600.border-transparent.hOrWbN {
+  background-color: var(--two);
+}
+
+/* server panel settings textbox */
+textarea.Input__Textarea-sc-19rce1w-1.hOrWbN {
+  background-color: var(--two);
+}
+
 
 a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fRwFrz.DashboardContainer___StyledServerRow-sc-1topkxf-2 {
   background-color: var(--one) !important;
