@@ -1,0 +1,28 @@
+info:
+  name: "kowantifypaneltheme"
+  identifier: "kowantifypaneltheme"
+  description: "kowantify hosting panel theme"
+  flags: ""
+  version: "v1.0"
+  target: "alpha-NLM"
+  author: "kowantify"
+  icon: ""
+  website: ""
+
+admin:
+  view: "admin.blade.php"
+  controller: ""
+  css: ""
+  wrapper: ""
+
+dashboard:
+  css: "client.css"
+  wrapper: ""
+  components: ""
+
+data:
+  directory: ""
+  public: ""
+
+database:
+  migrations: ""
