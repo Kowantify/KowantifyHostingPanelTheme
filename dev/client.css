@@ -8,11 +8,17 @@
     --text: #FFFFFF;
 }
 
+/* background 1 */
 html, body.bg-neutral-800 {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    background-color: var--(bg);
+}
+
+/* background 2 (when page is refreshed) */
+body.bg-neutral-900 {
     background-color: var--(bg);
 }
 
