@@ -97,6 +97,16 @@ img.LoginFormContainer___StyledImg-sc-cyh04c-5.iKtZRB {
     height: auto;
 }
 
+/* footer text color */
+p.PageContentBlock___StyledA-sc-kbxq2g-4.eOGAqX {
+    background-color: #ffffff;
+}
+
+/* footer year color */
+p.PageContentBlock___StyledP-sc-kbxq2g-3.dcHyfd {
+    background-color: #ffffff;
+}
+
 /* account context box color */
 div.ContentBox___StyledDiv-sc-mjlt6f-2.leFKUc {
     background-color: var(--one);
@@ -112,6 +122,11 @@ textarea.Input__Textarea-sc-19rce1w-1.CreateSSHKeyForm__CustomTextarea-sc-plts88
     background-color: var(--two);
 }
 
+/* dashboard showing your servers IP/PORT text */
+p.ServerRow___StyledP3-sc-1ibsw91-9.IQTcj {
+    color: #ffffff;
+}
+
 /* dashboard showing your servers cpu text */
 p.DashboardContainer___StyledP-sc-1topkxf-1.khFmcN {
     color: #ffffff;
@@ -124,6 +139,11 @@ p.svg-inline--fa.fa-memory.fa-w-20.ServerRow__Icon-sc-1ibsw91-0.dIawHF {
 
 /* dashboard showing your servers storage text*/
 p.svg-inline--fa.fa-hdd.fa-w-18.ServerRow__Icon-sc-1ibsw91-0.dIawHF {
+    color: #ffffff;
+}
+
+/* dashboard server IP/PORT icon color */
+svg.svg-inline--fa.fa-ethernet.fa-w-16.ServerRow___StyledFontAwesomeIcon-sc-1ibsw91-8.QNQDy {
     color: #ffffff;
 }
 
