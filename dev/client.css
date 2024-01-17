@@ -41,7 +41,7 @@ body.bg-neutral-800 {
 
 /* login page form text */
 input.Input-sc-19rce1w-0.khMOnl {
-    color: #ffffff !imporant;
+    color: #ffffff !important;
 }
 
 /* login page form text 2 */
@@ -97,6 +97,16 @@ img.LoginFormContainer___StyledImg-sc-cyh04c-5.iKtZRB {
     height: auto;
 }
 
+/* footer text color */
+p.PageContentBlock___StyledA-sc-kbxq2g-4.eOGAqX {
+    color: #ffffff;
+}
+
+/* footer year color */
+p.PageContentBlock___StyledP-sc-kbxq2g-3.dcHyfd {
+    color: #ffffff;
+}
+
 /* account context box color */
 div.ContentBox___StyledDiv-sc-mjlt6f-2.leFKUc {
     background-color: var(--one);
@@ -110,6 +120,11 @@ textarea.Input__Textarea-sc-19rce1w-1.CreateApiKeyForm__CustomTextarea-sc-lcvdq4
 /* account context box color 3 */
 textarea.Input__Textarea-sc-19rce1w-1.CreateSSHKeyForm__CustomTextarea-sc-plts88-0.hOrWbN {
     background-color: var(--two);
+}
+
+/* dashboard showing your servers IP/PORT text */
+p.ServerRow___StyledP3-sc-1ibsw91-9.IQTcj {
+    color: #ffffff;
 }
 
 /* dashboard showing your servers cpu text */
@@ -204,12 +219,12 @@ div.style-module_2Vp6MaXq.bg-gray-600 {
 
 /* server panel cpu/memory/network graphs */
 div.style-module_2XbmHEcn.group {
-    background-color: var(--one) !imporant;
+    background-color: var(--one) !important;
 }
 
 /* server panel console */
 div.xterm-viewport.element.style {
-    background-color: #000000 !imporant;
+    background-color: #000000 !important;
 }
 
 /* server panel console border */
